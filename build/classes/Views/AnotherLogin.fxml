@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AnotherLoginController">
+    <children>
+      <VBox prefHeight="400.0" prefWidth="100.0" style="-fx-background-color: cyan;" />
+      <Label layoutX="251.0" layoutY="61.0" text="Login">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="237.0" layoutY="148.0" text="Email" />
+      <Label layoutX="237.0" layoutY="233.0" text="Mot de passe" />
+      <TextField fx:id="emailTextInput" layoutX="237.0" layoutY="175.0" promptText="Entrer ton email" />
+      <Button fx:id="btnConnect" layoutX="448.0" layoutY="337.0" mnemonicParsing="false" onAction="#seConnecter" text="Se Connecter" />
+      <PasswordField fx:id="passwordInput" layoutX="237.0" layoutY="272.0" promptText="Entrer mot de passe" />
+   </children>
+</AnchorPane>
